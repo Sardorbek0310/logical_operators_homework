@@ -11,5 +11,5 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    return a<b<c
-print(main(a,b,c))  
+    return a<b<c or c<b<a
+print(main(a,b,c))
