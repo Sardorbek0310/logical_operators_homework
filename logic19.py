@@ -1,3 +1,4 @@
+a=11
 def main(x):
     """
     Given a two digit integer x, return true if x is palindrome integer.
@@ -8,4 +9,5 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+    return a//10==a%10
+print(main(a))
