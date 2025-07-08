@@ -7,5 +7,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a//10000<(a//1000)%10<(a//100)%100<(a//10)%1000<a%10000
+    return a//10000<(a//1000)%10<(a//100)%10<(a//10)%10<a%10
 print(main(a))
