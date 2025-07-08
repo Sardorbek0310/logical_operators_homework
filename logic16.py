@@ -1,3 +1,4 @@
+a=98000
 def main(a):
     """
     Given integer a,  check the following statement "The integer is a five-digit number".
@@ -6,4 +7,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return 1<=a//10000<=9
+print(main(a))
