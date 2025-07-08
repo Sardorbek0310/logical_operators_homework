@@ -1,3 +1,4 @@
+a=19
 def main(a):
     """
     Given integer a,  check the following statement "The integer is two-digit number".
@@ -6,4 +7,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return 1<=a//10<10
+print(main(a))  
