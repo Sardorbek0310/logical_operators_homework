@@ -1,3 +1,5 @@
+a=-4
+b=6
 def main(a,b):
     """
     Given two integers a, b,  check the following statement "At least one of the numbers 'a' and 'b' is positive".
@@ -7,4 +9,5 @@ def main(a,b):
     Returns:
         bool: answer
     """
-    return
+    return a>0 or b>0
+print(main(a,b))
